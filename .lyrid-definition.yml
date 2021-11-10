@@ -1,8 +1,8 @@
-name: tepskrip
+name: nodejs14_express
 description: App Description
 ignoreFiles: .git node_modules
 modules:
-- name: suprot
+- name: typescript
   language: nodejs14.x
   web: express.typescript
   description: Module description
