@@ -1,0 +1,12 @@
+name: tepskrip
+description: App Description
+ignoreFiles: .git node_modules
+modules:
+- name: suprot
+  language: nodejs14.x
+  web: express.typescript
+  description: Module description
+  functions:
+  - name: func
+    entry: entry.ts
+    description: the entry point for the function
