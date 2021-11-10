@@ -7,6 +7,6 @@ modules:
   web: express.typescript
   description: Module description
   functions:
-  - name: func
+  - name: entry
     entry: entry.ts
     description: the entry point for the function
