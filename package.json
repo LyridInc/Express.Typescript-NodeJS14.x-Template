@@ -1,11 +1,12 @@
 {
   "name": "lyrid-node-express-typescript-template",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Simple Web Express Node.js Typescript Lyrid Serverless Project",
   "main": "index.js",
   "private": true,
   "scripts": {
     "build": "tsc --project ./",
+    "clean": "tsc --build --clean",
     "start": "node index.js"
   },
   "license": "Apache-2.0",
